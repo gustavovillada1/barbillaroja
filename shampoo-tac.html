@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Producto | Cuida tu barba con nuestros productos</title>
+    
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, maximun-scale=3, minimum-scale=1">
+    
+    
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" type="image/jpg" href="img/icono-navegador.png">
+    
+    </head>
+    
+    <body>
+            
+        <div class="modal" id="modal">
+            <div class="modal__content">
+                <img src="" alt="" class="modal__img" id="modal__img">
+            </div>
+            <div class="modal__boton" id="modal__boton">X</div>
+        </div>
+        
+        
+        <header class="main-header">
+           
+            <div class="container container--flex">
+                <div class="logo-container column column--50">
+                    <!--<h1 class="logo">Barba Roja</h1>-->
+                    <img src="img/icono-barbaroja.png" class="logo" alt="">
+                    
+                </div>
+                <div class="main-header__contacInfo column column--50">
+                    <p class="main-header__contactInfo__phone">
+                        <span class="icon-phone">310 000 8888</span>
+                    </p>
+                    <p class="main-header__contactInfo__address">
+                        <span class="icon-location">Cartago, Valle del Cauca</span>
+                    </p>
+                </div>
+            
+            </div>
+        </header>  
+        
+        <nav class="main-nav">
+            <div class="container container--flex">
+                <span class="icon-menu" id="btnmenu"></span>
+                <ul class="menu" id="menu">
+                    <li class="menu__item"><a href="/" class="menu__link ">Inicio</a></li>
+                    <li class="menu__item"><a href="/#productos" class="menu__link">Productos</a></li>
+                    <li class="menu__item"><a href="/galeria.html" class="menu__link">Galería</a></li>
+                </ul>
+
+            </div>
+        </nav>   
+        
+        <section class="banner">
+                      
+            <video onloadstart ="this.muted=true" autoplay loop class="banner__img">
+               <source src="video/video-galeria.mp4">
+            </video>
+           
+            <!--<img src="img/image1.jpg" alt="" class="banner__img"> -->
+            <div class="banner__content"></div>
+        </section>
+        
+        <main class="main container--producto">
+        
+        <div class="producto__pagina container container--flex ">
+            
+            <div class="column column--50 image-producto">
+                <img src="img/productos/shampoo-barba-rostro.png" class="gallery__img" alt="">
+            </div>
+            
+            <div class="column column--50">
+                <h1><strong>SHAMPOO PARA BARBA Y ROSTRO Tac</strong></h1>
+                <h2><br>$17.000</h2>
+                <p>
+                El shampoo para barba y rostro de TAC For MEN está formulado para lavar la barba, el bigote y la piel que se encuentra debajo, restaurando los lípidos naturales producidos por los folículos, evitando la aparición de la “caspa en la barba” o “Beardruff”. <br> <br>
+
+                Hidrata, protege de la resequedad y aporta humectación. <br> <br>
+                </p>
+                        <div class="boton--comprar"><a href="https://api.whatsapp.com/send?phone=573108724713&text=Hola%20Barbilla%20Roja,%20me%20interesa comprar el producto SHAMPOO PARA BARBA Y ROSTRO Tac al precio de $17.000" target="_blank">Comprar</a></div>                
+                <p>
+                <strong>Esta formulación contiene:</strong> <br> <br>
+
+                Surfactantes (agentes de lavado) de baja irritabilidad y suaves para la piel. <br> <br>
+
+                <strong>Acondicionadores.</strong> <br> <br>
+
+                Agente hidratante (Hydrovance): brinda excelente humectación, incrementa la elasticidad en la piel. <br><br>
+                Presentacion: 150ml.</p>
+            </div>
+            
+               <div class="boton--regresar">
+               <img src="img/regresar.png" alt="">
+                <a href="/#productos" class="">Regresar</a>
+               </div>
+               
+               
+        </div>
+
+        </main>
+        
+        
+        <footer class="main-footer">
+                <div class="container container--flex">
+                    
+                    <p class="copy">© 2021 Barbilla Roja| Este sitio fue desarrollado por <a href="https://gustavovillada.com/" target="_blank"><strong>Gustavo Villada</strong></a></p>
+                    
+                </div>
+            </footer>
+            
+            <script src="js/menu.js"></script>
+            <script src="js/animar.js"></script>
+            <script src="js/modal.js"></script>
+
+    </body>
+</html>
